@@ -1,0 +1,28 @@
+[project]
+name = "uptime-guardian"
+version = "0.1.0"
+description = "Simple, testable service uptime checker for HTTP endpoints."
+authors = [{ name = "Chase Dustin" }]
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=5.0.0",
+]
+
+[project.scripts]
+uptime-guardian = "uptime_guardian.cli:main"
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "--cov=uptime_guardian --cov-report=term-missing"
+
