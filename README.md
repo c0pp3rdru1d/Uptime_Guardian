@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 🛡️ Uptime Guardian
 
 A tested, modular, Python-based service uptime checker with a clean CLI dashboard
