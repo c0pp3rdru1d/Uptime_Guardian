@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🛡️ Uptime Guardian
 
 A tested, modular, Python-based service uptime checker with a clean CLI dashboard
@@ -177,3 +178,7 @@ Integration with monitoring dashboards
 📜 License
 
 This project is open-source and available under the MIT License.
+=======
+# Uptime_Guardian
+A configurable CLI uptime manager for Network Admins
+>>>>>>> bcee03f15d03676000a3a8d72612042b828ad034
